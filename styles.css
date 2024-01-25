@@ -313,4 +313,20 @@ h1 {
     .nav-menu.active {
         left: 0;
     }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .deorum-logo {
+        width: 50%;
+    }
+
+    .legion-art {
+        width: 95%;
+    }
+
+    .text-container {
+        width: 95%;
+    }
 }
