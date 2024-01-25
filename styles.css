@@ -29,3 +29,54 @@ img { display: block; }
     background-repeat: round;
     background-size: contain;
 }
+
+
+/* ----- | HEADER SECTION | ----------------------------- */
+.navbar {
+    min-height: 70px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.divider {
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    width: 12%;
+    padding: 5px;
+    z-index: 99;
+}
+
+.nav-link {
+    transition: 0.3s ease;
+    font-size: 1.1rem;
+} 
+
+.nav-link:hover { color: yellow; }
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 7px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
