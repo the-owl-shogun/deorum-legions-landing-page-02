@@ -351,3 +351,11 @@ h1 {
         width: 95%;
     }
 }
+
+
+/* ----- | MEDIA QUERIES / 700px | ------------------------------ */
+@media(min-width: 700px) {
+    .book-cover {
+        width: 40%;
+    }
+}
