@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 /* ----- | GENERAL STYLES | ----------------------------- */
 html { font-family: 'poppins', sans-serif; }
 
@@ -359,3 +360,63 @@ h1 {
         width: 40%;
     }
 }
+
+
+/* ----- | MEDIA QUERIES / 900px | ------------------------------ */
+@media(min-width: 900px) {
+    .deorum-logo {
+        width: 30%;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    .legion-art,
+    .text-container {
+        width: 50%;
+    }
+
+    .book-profile {
+        width: 45%;
+    }
+
+    .velkan-color {
+        width: 30%;
+    }
+
+    .center-image {
+        width: 50%;
+    }
+    
+    .eye-art {
+        width: 25%;
+    }
+
+    .book-cover {
+        width: 35%;
+    }
+
+    .preview-directions {
+        font-size: 1.3rem;
+    }
+
+    .join {
+        font-size: 1.5rem;
+        padding-bottom: 15px;
+    }
+
+    .get-copy {
+        padding: 30px 40px;
+    }
+
+    .preview-container {
+        margin-bottom: 25px;
+    }
+
+    .book-col p {
+        font-size: 1.5rem;
+    }
+}
+
+/* That concludes this CSS Stylesheet */
