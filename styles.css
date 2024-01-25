@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ----- | CSS RESET | ---------------------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----- | GENERAL STYLES | ----------------------------- */
+html { font-family: 'poppins', sans-serif; }
+
+header {
+    background: linear-gradient(to left, #2953a7, #0b2049);
+}
+
+li { list-style: none; }
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+img { display: block; }
+
+.meandros {
+    display: flex;
+    background-image: url(./assets/other-graphics/meandros.png);
+    background-repeat: round;
+    background-size: contain;
+}
