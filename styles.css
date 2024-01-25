@@ -265,9 +265,24 @@ h1 {
 
 /* ----- | MEDIA QUERIES / 300px | ------------------------------ */
 @media(max-width: 300px) {
-    .logo { width: 50%; }
+    .logo {
+        width: 50%;
+    }
 
-    h1 { font-size: 1rem; }
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+
+/* ----- | MEDIA QUERIES / 400px | ------------------------------ */
+@media(max-width: 400px) {
+    .button-group {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 15px;
+    }
 }
 
 
