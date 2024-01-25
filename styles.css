@@ -80,3 +80,53 @@ img { display: block; }
     background-color: white;
 }
 
+
+/* ----- | MEDIA QUERIES / 685px | ------------------------------ */
+@media(max-width: 685px) {
+    .logo {
+        width: 18%;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .divider {
+        display: none;
+    }
+    
+    /* When icon is clicked, bars make an 'x' */
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+    
+    /*Hides menu once width shrinks to 685px */
+    /* Menu parameters are ready once active */
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0px;
+        flex-direction: column;
+        background: linear-gradient(to left, #2953a7, #0b2049);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 98; /* tells broswer to render over deorum logo */
+    }
+    
+    .nav-item { margin: 16px 0; }
+    
+    /* menu behavior once icon is active */
+    .nav-menu.active {
+        left: 0;
+    }
+}
